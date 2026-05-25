@@ -17,10 +17,7 @@ namespace Event_Final
         {
             InitializeComponent();
         }
-        SqlConnection con = new SqlConnection(
-        @"Data Source=(LocalDB)\MSSQLLocalDB;
-        AttachDbFilename=C:\Users\hp\OneDrive\Documents\GitHub\Event-Final\Event Final\Database1.mdf;
-        Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\hp\OneDrive\Documents\GitHub\Event-Final\Event Final\Database1.mdf;Integrated Security=True");
         private void pictureBox2_Click(object sender, EventArgs e)
         {
 

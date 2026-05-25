@@ -14,9 +14,12 @@ namespace Event_Final
         [STAThread]
         static void Main()
         {
+            AppDomain.CurrentDomain.SetData("DataDirectory", Application.StartupPath);
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Login());
         }
+       
     }
 }
